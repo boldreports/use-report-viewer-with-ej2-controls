@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Resources\company-sales.rdl" />
+    <Content Remove="wwwroot\Resources\conditional-row-formatting.rdl" />
+    <Content Remove="wwwroot\Resources\customer-support-analysis.rdl" />
+    <Content Remove="wwwroot\Resources\customer-support-representative-analysis.rdl" />
+    <Content Remove="wwwroot\Resources\grouping-aggregate.rdl" />
+    <Content Remove="wwwroot\Resources\invoice.rdl" />
+    <Content Remove="wwwroot\Resources\mail-merge.rdl" />
+    <Content Remove="wwwroot\Resources\northwind-products-suppliers-report.rdl" />
+    <Content Remove="wwwroot\Resources\NorthwindIO_Reports.sdf" />
+    <Content Remove="wwwroot\Resources\patient-experience-analysis.rdl" />
+    <Content Remove="wwwroot\Resources\personal-expense-analysis.rdl" />
+    <Content Remove="wwwroot\Resources\product-line-sales.rdl" />
+    <Content Remove="wwwroot\Resources\sales-report.rdl" />
+    <Content Remove="wwwroot\Resources\territory-sales.rdl" />
+    <Content Remove="wwwroot\Resources\tickets-sales-analysis.rdl" />
+    <Content Remove="wwwroot\Resources\website-visitor-analysis.rdl" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BoldReports.AspNet.Core" Version="2.3.39" />
+    <PackageReference Include="BoldReports.Net.Core" Version="2.3.39" />
+    <PackageReference Include="Syncfusion.EJ2.AspNet.Core" Version="18.2.0.57" />
+  </ItemGroup>
+
+</Project>
